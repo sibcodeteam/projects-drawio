@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T08:55:37.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="z_5g5bW8i27e_A-OfZP8" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T09:03:58.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="sj2oOQtaZZT-r3VJDWNI" version="23.1.1" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
-    <mxGraphModel dx="2359" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1839" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1274,6 +1274,183 @@
             <Array as="points">
               <mxPoint x="490" y="400" />
               <mxPoint x="80" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-481" value="&lt;font style=&quot;font-size: 90px;&quot;&gt;Группа риска&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3140" width="1720" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-482" value="Получить все группы риска" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="3300" width="730" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-483" value="Клиент" style="swimlane;html=1;startSize=20;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-482">
+          <mxGeometry y="20" width="250" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-484" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-483">
+          <mxGeometry x="40" y="65" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-485" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Отправка запроса&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-483">
+          <mxGeometry x="100" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-486" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-483" source="yV7aqRX8QzyMvrt_NgPq-484" target="yV7aqRX8QzyMvrt_NgPq-485">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-487" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-483">
+          <mxGeometry x="105" y="350" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-488" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-482" source="yV7aqRX8QzyMvrt_NgPq-485" target="yV7aqRX8QzyMvrt_NgPq-491">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="-30" as="sourcePoint" />
+            <mxPoint x="350" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-489" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;jumpStyle=arc;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-482" source="yV7aqRX8QzyMvrt_NgPq-493" target="yV7aqRX8QzyMvrt_NgPq-487">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="290" />
+              <mxPoint x="490" y="320" />
+              <mxPoint x="125" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-490" value="Сервер" style="swimlane;html=1;startSize=20;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-482">
+          <mxGeometry x="250" y="20" width="480" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-491" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Поиск группы риска в таблице RiskGroups&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-490">
+          <mxGeometry x="163.75" y="110" width="142.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-492" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-490" source="yV7aqRX8QzyMvrt_NgPq-491" target="yV7aqRX8QzyMvrt_NgPq-493">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="230" as="sourcePoint" />
+            <mxPoint x="235" y="190.00000000000045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-493" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ответ 200&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-490">
+          <mxGeometry x="158.75" y="220" width="152.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-515" value="Получить группу риска по ID" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="3300" width="730" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-516" value="Клиент" style="swimlane;html=1;startSize=20;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-515">
+          <mxGeometry y="20" width="250" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-517" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-516">
+          <mxGeometry x="40" y="65" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-518" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Отправка запроса на получение группы риска&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-516">
+          <mxGeometry x="100" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-519" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-516" source="yV7aqRX8QzyMvrt_NgPq-517" target="yV7aqRX8QzyMvrt_NgPq-518">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-520" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-516">
+          <mxGeometry x="150" y="440" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-521" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-515" source="yV7aqRX8QzyMvrt_NgPq-518" target="yV7aqRX8QzyMvrt_NgPq-523">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="-30" as="sourcePoint" />
+            <mxPoint x="350" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-522" value="Сервер" style="swimlane;html=1;startSize=20;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-515">
+          <mxGeometry x="250" y="20" width="480" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-523" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Поиск группы риска по ID в таблице RiskGroups&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-522">
+          <mxGeometry x="163.75" y="110" width="142.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-524" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-522" source="yV7aqRX8QzyMvrt_NgPq-523" target="yV7aqRX8QzyMvrt_NgPq-526">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="230" as="sourcePoint" />
+            <mxPoint x="235" y="190.00000000000045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-525" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ответ 404&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-522">
+          <mxGeometry x="22" y="310" width="88" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-526" value="&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Группа риска найдена?&lt;/font&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-522">
+          <mxGeometry x="176.88" y="200" width="116.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-527" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-522" source="yV7aqRX8QzyMvrt_NgPq-526" target="yV7aqRX8QzyMvrt_NgPq-525">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="260" as="sourcePoint" />
+            <mxPoint x="120" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-528" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yV7aqRX8QzyMvrt_NgPq-527">
+          <mxGeometry x="-0.4583" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-530" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ответ 200&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-522">
+          <mxGeometry x="306.25" y="310" width="88" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-531" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-522" source="yV7aqRX8QzyMvrt_NgPq-526" target="yV7aqRX8QzyMvrt_NgPq-530">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="430" as="sourcePoint" />
+            <mxPoint x="355" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-532" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yV7aqRX8QzyMvrt_NgPq-531">
+          <mxGeometry x="-0.41" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-534" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-515" source="yV7aqRX8QzyMvrt_NgPq-530" target="yV7aqRX8QzyMvrt_NgPq-520">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="620" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="420" />
+              <mxPoint x="170" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-535" value="Создать группу риска" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="810" y="3300" width="730" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-536" value="Клиент" style="swimlane;html=1;startSize=20;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-535">
+          <mxGeometry y="20" width="250" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-537" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-536">
+          <mxGeometry x="40" y="65" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-538" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Отправка запроса на создание группу риска&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-536">
+          <mxGeometry x="100" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-539" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-536" source="yV7aqRX8QzyMvrt_NgPq-537" target="yV7aqRX8QzyMvrt_NgPq-538">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-540" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-536">
+          <mxGeometry x="90" y="380" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-541" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-535" source="yV7aqRX8QzyMvrt_NgPq-538" target="yV7aqRX8QzyMvrt_NgPq-543">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="-30" as="sourcePoint" />
+            <mxPoint x="350" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-542" value="Сервер" style="swimlane;html=1;startSize=20;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-535">
+          <mxGeometry x="250" y="20" width="480" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-543" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Создаём группу риска в таблице RiskGroups&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-542">
+          <mxGeometry x="163.75" y="110" width="142.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-547" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-542" source="yV7aqRX8QzyMvrt_NgPq-543" target="yV7aqRX8QzyMvrt_NgPq-552">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="230" as="sourcePoint" />
+            <mxPoint x="235" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-552" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ответ 200&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="yV7aqRX8QzyMvrt_NgPq-542">
+          <mxGeometry x="158.75" y="220" width="152.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yV7aqRX8QzyMvrt_NgPq-561" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;jumpStyle=arc;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yV7aqRX8QzyMvrt_NgPq-535" source="yV7aqRX8QzyMvrt_NgPq-552" target="yV7aqRX8QzyMvrt_NgPq-540">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="616.25" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="485" y="330" />
+              <mxPoint x="110" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
