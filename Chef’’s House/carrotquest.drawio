@@ -1,105 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-02-12T08:02:22.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="u-X9WnDRNKjC0Xa-EYwb" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-12T10:16:26.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="TrN7VY41s1o6INh-8GYa" version="23.1.2" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2206" dy="2067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="40" width="1380" height="1600" as="geometry" />
-        </mxCell>
-        <mxCell id="77e6c97f196da883-2" value="Мобильное Приложение" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="600" height="1580" as="geometry" />
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-18" value="Код статуса 200? В ответе содережится ID созданного пользователя?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="260" y="380" width="165" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-17" value="Отобразить сообщение о том, что не удалось отправить сообщение в чат." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="443.75" y="510" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-2" source="NRH0jWtVndr9vISsza53-18" target="NRH0jWtVndr9vISsza53-17">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="490" as="sourcePoint" />
-            <mxPoint x="70" y="460" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="494" y="430" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-20" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NRH0jWtVndr9vISsza53-8">
-          <mxGeometry x="-0.6974" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-32" value="Отправка запроса о том, что необходимо сохранить ID пользователя в carrotquest" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="141.25" y="550" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="77e6c97f196da883-2" source="NRH0jWtVndr9vISsza53-18" target="NRH0jWtVndr9vISsza53-32">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="510" as="sourcePoint" />
-            <mxPoint x="790" y="460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-25" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NRH0jWtVndr9vISsza53-24">
-          <mxGeometry x="-0.7641" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-35" value="Подключение по websocket к каналу для получения новых сообщений" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="141.25" y="640" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-2" source="NRH0jWtVndr9vISsza53-32" target="NRH0jWtVndr9vISsza53-35">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="700" as="sourcePoint" />
-            <mxPoint x="250" y="650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-38" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;У пользователя есть ID в carrotquest?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="272.5" y="70" width="140" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-41" value="Отправка запроса о том, что необходимо сохранить ID пользователя в carrotquest" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="20" y="760" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="77e6c97f196da883-2" source="NRH0jWtVndr9vISsza53-38" target="NRH0jWtVndr9vISsza53-41">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="50" y="230" as="sourcePoint" />
-            <mxPoint x="100" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="77e6c97f196da883-1" source="77e6c97f196da883-12" target="NRH0jWtVndr9vISsza53-18">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820" y="480" as="sourcePoint" />
-            <mxPoint x="870" y="430" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="810" y="380" />
-              <mxPoint x="343" y="380" />
-              <mxPoint x="343" y="400" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="77e6c97f196da883-4" value="Carrotquest" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="600" y="20" width="420" height="1580" as="geometry" />
-        </mxCell>
-        <mxCell id="77e6c97f196da883-12" value="Создание диалога. Отправка информации о созданном диалоге" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
-          <mxGeometry x="160" y="280" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-37" value="Создание диалога. Отправка информации о созданном диалоге" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="170" y="640" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="77e6c97f196da883-1" source="NRH0jWtVndr9vISsza53-32" target="NRH0jWtVndr9vISsza53-23">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="540" as="sourcePoint" />
-            <mxPoint x="620" y="490" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1200" y="600" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="77e6c97f196da883-3" value="Сайт" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="1020" y="20" width="360" height="1580" as="geometry" />
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-23" value="Закрепить полученный ID за пользователем на сайте" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="130" y="620" width="100" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="NRH0jWtVndr9vISsza53-43" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="1640" y="40" width="1955" height="2170" as="geometry" />
         </mxCell>
@@ -195,7 +99,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-92" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Отправка запроса на получение информации о пользователя. В запросе находится ID пользователя на сайте&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NRH0jWtVndr9vISsza53-44">
+        <mxCell id="NRH0jWtVndr9vISsza53-92" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Отправка запроса на получение информации о пользователе. В запросе находится ID пользователя на сайте&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NRH0jWtVndr9vISsza53-44">
           <mxGeometry x="240" y="250" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NRH0jWtVndr9vISsza53-95" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Удалось получить информацию о пользователе?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="NRH0jWtVndr9vISsza53-44">
@@ -234,9 +138,6 @@
         </mxCell>
         <mxCell id="NRH0jWtVndr9vISsza53-112" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Отправка запроса на получение чатов пользователя&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="NRH0jWtVndr9vISsza53-44">
           <mxGeometry x="355" y="730" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-40" value="Отправка запроса на создание диалога. В запросе находится ID пользователя на сайте." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="NRH0jWtVndr9vISsza53-44">
-          <mxGeometry x="-1350" y="-310" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NRH0jWtVndr9vISsza53-116" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Сохраняем ID пользователя carrotquest в кэше устройства&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="NRH0jWtVndr9vISsza53-44">
           <mxGeometry x="575" y="1020" width="170" height="40" as="geometry" />
@@ -432,30 +333,6 @@
             <Array as="points">
               <mxPoint x="1385" y="1660" />
               <mxPoint x="670" y="1660" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-90" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Отправка запроса на получение чатов пользователя&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NRH0jWtVndr9vISsza53-38" target="NRH0jWtVndr9vISsza53-40">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="644.9999999999998" y="250" as="sourcePoint" />
-            <mxPoint x="140" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-39" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NRH0jWtVndr9vISsza53-5">
-          <mxGeometry x="-0.579" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NRH0jWtVndr9vISsza53-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NRH0jWtVndr9vISsza53-40" target="77e6c97f196da883-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="300" as="sourcePoint" />
-            <mxPoint x="930" y="300" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="570" y="320" />
-              <mxPoint x="880" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
